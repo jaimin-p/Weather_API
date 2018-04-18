@@ -1,0 +1,20 @@
+body{
+    margin-top: 40px;
+    box-sizing: border-box;
+    /* background: url("https://images.pexels.com/photos/37728/pexels-photo-37728.jpeg"); */
+    background:lightgray;  /* fallback for old browsers */
+   
+
+}
+
+#btn{
+    
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+hr{
+visibility: hidden;
+}
+
