@@ -1,20 +1,34 @@
-body{
-    margin-top: 40px;
-    box-sizing: border-box;
-    /* background: url("https://images.pexels.com/photos/37728/pexels-photo-37728.jpeg"); */
-    background:lightgray;  /* fallback for old browsers */
-   
-
+.card-body {
+  height: 12rem;
 }
 
-#btn{
-    
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
+/* img{
+  width :25%;
+  height :25%;
+} */
+.card {
+  width: 25rem;
+  border-radius: 5%;
 }
 
-hr{
-visibility: hidden;
+.refresh:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
+body {
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f2fcfe,
+    #1c92d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f2fcfe,
+    #1c92d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

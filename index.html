@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Weather</title>
 
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
+
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-    
-    <div class="container text-center">
-        <span><i class=" animated fadeInDown fa fa-cloud fa-5x text-center text-primary"></i></span>
-        <h1 class="animated fadeInDown display-4 text-primary ">Local Weather</h1>
-        <hr>
-        <button type="button" class="btn btn-outline-primary font-weight-bold" id="btn">Show Weather</button>
-        <br>
-        <div id="demo"></div>
+
+  <div class="container" style="padding-top: 90px">
+
+    <div class="header  display-3 text-center text-primary pb-4">Weather</div>
+
+    <div class="row renderContent">
+
+      <div class="card shadow m-auto text-center">
+        <div class="card-header">
+          <i class="fas fa-map-marker-alt fa-2x pb-2"></i>
+          <p class="h4 location"></p>
+          <span class="badge badge-pill badge-secondary timeNow"></span>
+        </div>
+        <div class="card-body">
+
+          <div class="card-title display-4"> <span id="img-status"></span></div>
+          <div class="min-max-temp text-muted h5"></div>
+          <p class="weatherStatus text-muted h5"></p>
+
+        </div>
+        <div class="card-footer small ">
+          <i class="fa fa-sync-alt"></i><span class="refresh"></span>
+        </div>
+      </div>
     </div>
-        
-<script src="js/weather.js"></script>
+
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="js/index.js"></script>
+
 </body>
+
 </html>
