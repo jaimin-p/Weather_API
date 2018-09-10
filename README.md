@@ -6,3 +6,7 @@ Responsive Design Using Following Concept :
 -  Font-Awesome Library
 -  jQuery
 -  Animate CSS
+
+[https://jaimin-p.github.io/Weather_API/](url)
+
+![weather](https://user-images.githubusercontent.com/37629359/45275977-c5663b80-b48d-11e8-8e23-307d6b585d0b.PNG)
