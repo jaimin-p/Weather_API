@@ -7,6 +7,6 @@ Responsive Design Using Following Concept :
 -  jQuery
 -  Animate CSS
 
-[https://jaimin-p.github.io/Weather_API/](url)
+https://jaimin-p.github.io/Weather_API/
 
 ![weather](https://user-images.githubusercontent.com/37629359/45275977-c5663b80-b48d-11e8-8e23-307d6b585d0b.PNG)
